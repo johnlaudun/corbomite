@@ -34,19 +34,19 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "contact@corbomite.net"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
-#  medium: yourname
+  # facebook: deanattali
+  github: johnlaudun
+  # twitter: johnlaudun
+  # patreon: DeanAttali
+  # youtube: ""
+  # whatsapp: 15551212
+ medium: johnlaudun
 #  reddit: yourname
-#  linkedin: daattali
+ linkedin: johnlaudun
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
+#  stackoverflow: "3943160/xxx"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  spotify: yourname
@@ -56,8 +56,8 @@ social-network-links:
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
-#  mastodon: instance.url/@username
-#  bluesky: yourname
+ mastodon: hcommons.social/@johnlaudun
+#  bluesky: johnlaudun
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code" 
