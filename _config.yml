@@ -1,3 +1,4 @@
+# CONFIG
 title: CorbCorp
 
 # Your name to show in the footer
@@ -10,75 +11,60 @@ navbar-links:
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://johnlaudun.net"
 
-################
 # --- Logo --- #
-################
-
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
+# By default, the image is cut into a circle.
 avatar: "/assets/img/corbcorp.jpg"
-
-# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
+# For image logo in the top-left corner instead site title,
+# specify the following parameter
+# title-img: /path/to/image
 
-# If you want to have an image logo in the top-left corner instead of having the title of the website,
-# then specify the following parameter
-#title-img: /path/to/image
-
-
-#####################################
 # --- Footer social media links --- #
-#####################################
-
 # Select the social network links that you want to show in the footer.
-# You can change the order that they show up on the page by changing the order here.
-# Uncomment the links you want to show and add your information to each one.
+# Order here is order in footer.
 social-network-links:
   email: "contact@corbomite.net"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
   github: johnlaudun
+  medium: johnlaudun
+  linkedin: johnlaudun
+  mastodon: hcommons.social/@johnlaudun
+  rss: true  # remove if you don't an RSS link at the bottom
   # twitter: johnlaudun
   # youtube: ""
   # whatsapp: 15551212
- medium: johnlaudun
-#  reddit: yourname
- linkedin: johnlaudun
-#  xing: yourname
-#  stackoverflow: "3943160/xxx"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
- mastodon: hcommons.social/@johnlaudun
-#  bluesky: johnlaudun
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code" 
-#  kaggle: yourname
-#  hackerrank: yourname
-#  gitlab: yourname
-#  itchio: yourname
-#  untappd: yourname
+  # reddit: yourname
+  #  xing: yourname
+  #  stackoverflow: "3943160/xxx"
+  #  snapchat: deanat78
+  #  instagram: deanat78
+  #  spotify: yourname
+  #  steam: deanat78
+  #  twitch: yourname
+  #  yelp: yourname
+  #  telegram: yourname
+  #  calendly: yourname
+  #  bluesky: johnlaudun
+  #  ORCID: your ORCID ID
+  #  google-scholar: your google scholar
+  #  discord: "invite_code" or "users/userid" or "invite/invite_code" 
+  #  kaggle: yourname
+  #  hackerrank: yourname
+  #  gitlab: yourname
+  #  itchio: yourname
+  #  untappd: yourname
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
 rss-description: We have always been here.
 
-###########################
 # --- General options --- #
-###########################
-
 # Select which social network share links to show in posts
 share-links-active:
   twitter: false
-  facebook: false
   linkedin: true
-  vk: false
-
+  mastodon: true
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
 url-pretty: "Corbomite.com"
